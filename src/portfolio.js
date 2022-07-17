@@ -235,12 +235,11 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "Udemy",
-      subtitle: "Build Unseen & Featuristic Javascript Web Applications",
-      logo_path: "Udemy_logo.svg",
-      certificate_link:
-        "https://www.udemy.com/certificate/UC-1c0464e6-9122-46cd-930b-a690b67424d6",
-      alt_name: "Udemy",
+      title: "Stepik",
+      subtitle: "Interactive SQL Trainer",
+      logo_path: "stepik_logo.png",
+      certificate_link: "https://stepik.org/cert/1558875",
+      alt_name: "Stepik",
       color_code: "#2AAFED",
     },
     {
@@ -285,7 +284,7 @@ const certifications = {
       logo_path: "Udemy_logo.svg",
       certificate_link:
         "https://www.udemy.com/certificate/UC-2350538b-7509-4bf4-a741-c4f03790b089",
-      alt_name: "Reply",
+      alt_name: "Udemy",
       color_code: "#ffc475",
     },
     {
@@ -551,7 +550,7 @@ const projects = {
       ],
     },
     {
-      id: "3",
+      id: "5",
       name: "Gem puzzle",
       url: "https://iharnazarov-gem-puzzle-2020q3.netlify.app",
       description:
@@ -572,7 +571,7 @@ const projects = {
       ],
     },
     {
-      id: "4",
+      id: "6",
       name: "Calculator",
       url: "https://iharnazarov-calculator-2020q3.netlify.app",
       description: "Made a GUI based Calculator",
@@ -592,7 +591,7 @@ const projects = {
       ],
     },
     {
-      id: "5",
+      id: "7",
       name: "Webdev",
       url: "https://iharnazarov-webdev-2020q3.netlify.app",
       description: "Pixel Perfect layout from Figma",
@@ -608,7 +607,7 @@ const projects = {
       ],
     },
     {
-      id: "6",
+      id: "8",
       name: "Draggable site Cars",
       url: "https://draggable-site-cars.netlify.app",
       description: "Draggable site Cars. Only for Fun",
