@@ -15,7 +15,7 @@ ReactDOM.render(
   <StyletronProvider value={engine}>
     <BaseProvider theme={LightTheme}>
       <App />
-    </BaseProvider>
+    </BaseProvider>{" "}
   </StyletronProvider>,
   document.getElementById("root")
 );

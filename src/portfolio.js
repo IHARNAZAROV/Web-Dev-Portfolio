@@ -303,7 +303,6 @@ const certifications = {
       logo_path: "logo_rs2.svg",
       certificate_link: "https://app.rs.school/certificate/vq3kg7t4",
       alt_name: "RS School",
-      // color_code: "#f36c3d",
       color_code: "#a60000",
     },
     {
@@ -492,7 +491,7 @@ const projects = {
     {
       id: "2",
       name: "English for kids",
-      url: "https://iharnazarov-english-for-kids-2020q3.netlify.app/",
+      url: "https://iharnazarov-english-for-kids-2020q3.netlify.app",
       description: "App for learning english words for kids.",
       languages: [
         {
