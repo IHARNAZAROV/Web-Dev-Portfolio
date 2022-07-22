@@ -1,21 +1,21 @@
-import React from "react";
-import { Route, Switch, HashRouter } from "react-router-dom";
-import Home from "../pages/home/HomeComponent";
-import Splash from "../pages/splash/Splash";
-import Education from "../pages/education/EducationComponent";
-import Experience from "../pages/experience/Experience";
-import Contact from "../pages/contact/ContactComponent";
-import Projects from "../pages/projects/Projects";
-import { settings } from "../portfolio.js";
+import React from 'react'
+import { Route, Switch, HashRouter } from 'react-router-dom'
+import Home from '../pages/home/HomeComponent'
+import Splash from '../pages/splash/Splash'
+import Education from '../pages/education/EducationComponent'
+import Experience from '../pages/experience/Experience'
+import Contact from '../pages/contact/ContactComponent'
+import Projects from '../pages/projects/Projects'
+import { settings } from '../portfolio.js'
 
-export default function Main(propss) {
+export default function Main (propss) {
   if (settings.isSplash) {
     return (
       <div>
-        <HashRouter basename="/">
+        <HashRouter basename='/'>
           <Switch>
             <Route
-              path="/"
+              path='/'
               exact
               render={(props) => (
                 <Splash
@@ -26,7 +26,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/home"
+              path='/home'
               render={(props) => (
                 <Home
                   {...props}
@@ -36,7 +36,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path='/experience'
               exact
               render={(props) => (
                 <Experience
@@ -47,7 +47,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path='/education'
               render={(props) => (
                 <Education
                   {...props}
@@ -57,7 +57,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path='/contact'
               render={(props) => (
                 <Contact
                   {...props}
@@ -67,7 +67,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/splash"
+              path='/splash'
               render={(props) => (
                 <Splash
                   {...props}
@@ -77,7 +77,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path='/projects'
               render={(props) => (
                 <Projects
                   {...props}
@@ -89,14 +89,14 @@ export default function Main(propss) {
           </Switch>
         </HashRouter>
       </div>
-    );
+    )
   } else {
     return (
       <div>
-        <HashRouter basename="/">
+        <HashRouter basename='/'>
           <Switch>
             <Route
-              path="/"
+              path='/'
               exact
               render={(props) => (
                 <Home
@@ -107,7 +107,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/home"
+              path='/home'
               render={(props) => (
                 <Home
                   {...props}
@@ -117,7 +117,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/experience"
+              path='/experience'
               exact
               render={(props) => (
                 <Experience
@@ -128,7 +128,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/education"
+              path='/education'
               render={(props) => (
                 <Education
                   {...props}
@@ -138,7 +138,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/contact"
+              path='/contact'
               render={(props) => (
                 <Contact
                   {...props}
@@ -148,7 +148,7 @@ export default function Main(propss) {
               )}
             />
             <Route
-              path="/projects"
+              path='/projects'
               render={(props) => (
                 <Projects
                   {...props}
@@ -160,6 +160,6 @@ export default function Main(propss) {
           </Switch>
         </HashRouter>
       </div>
-    );
+    )
   }
 }
