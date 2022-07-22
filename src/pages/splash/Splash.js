@@ -6,13 +6,13 @@ function AnimatedSplash (props) {
   return (
     <div className='logo_wrapper'>
       <div className='loading'>
-        <div class='ball' />
-        <div class='ball' />
-        <div class='ball' />
-        <div class='ball' />
-        <div class='ball' />
-        <div class='ball' />
-        <div class='ball' />
+        <div className='ball' />
+        <div className='ball' />
+        <div className='ball' />
+        <div className='ball' />
+        <div className='ball' />
+        <div className='ball' />
+        <div className='ball' />
       </div>
     </div>
   )
