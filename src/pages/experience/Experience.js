@@ -9,7 +9,7 @@ import ExperienceImg from './ExperienceImg'
 
 function Experience (props) {
   const theme = props.theme
-  
+
   return (
     <div className='experience-main'>
       <Header theme={theme} setTheme={props.setTheme} />
