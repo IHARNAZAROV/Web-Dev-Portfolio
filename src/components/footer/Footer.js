@@ -11,7 +11,7 @@ export default function Footer(props) {
         <p className="footer-text" style={{ color: props.theme.secondaryText }}>
           Made with{" "}
           <span role="img">
-            <span class="iconify" data-icon="bi:balloon-heart-fill"></span>
+            <span class="iconify" data-icon="bi:balloon-heart-fill" />
           </span>{" "}
           by {greeting.title2} @2022
         </p>
