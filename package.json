@@ -14,7 +14,7 @@
   "dependencies": {
     "baseui": "^9.116.3",
     "bootstrap": "^4.6.0",
-    "fs": "0.0.1-security",
+    "fs": "0.0.2",
     "glamor": "^2.20.40",
     "node-fetch": "^2.6.1",
     "node-sass": "^7.0.0",
