@@ -5,7 +5,7 @@ const settings = {
   googleTrackingID: "G-LZNPFJD20B",
 };
 
-//Home Page
+// Home Page
 const greeting = {
   title: "Hello 👋.",
   title2: "Igor Nazarov",
@@ -334,6 +334,12 @@ const experience = {
           logo_path: "IProvider.jpg",
           duration: "April 2008 - August 2011",
           location: "Minsk",
+          title: "Technical Support Specialist",
+          company: "Internet Service Provider “Business Network”",
+          company_url: "https://bn.by/",
+          logo_path: "IProvider.jpg",
+          duration: "April 2008 - August 2011",
+          location: "Minsk",
           description: `Providing prompt assistance to troubleshooting staff. Fixing requests from users in the HelpDesk system.Providing support, training and consulting to company
           employees matters relating to computers and software 
           `,
@@ -346,6 +352,12 @@ const experience = {
           logo_path: "cristmas.png",
           duration: "October 2012 - May 2022",
           location: "Minsk",
+          title: "Systems Engineer",
+          company: "Krismas",
+          company_url: "http://krismas-service.com/",
+          logo_path: "cristmas.png",
+          duration: "October 2012 - May 2022",
+          location: "Minsk",
           description: `Software setup;Personnel Management;Setting up network communications;Maintenance equipment management.
           `,
           color: "#ee3c26",
@@ -354,6 +366,12 @@ const experience = {
           title: "System Administrator",
           company: "Autopeople",
           company_url: "https://www.openzap.by",
+          logo_path: "Openzap.png",
+          duration: "June 2022 - Present",
+          location: "Minsk",
+          title: "System Administrator",
+          company: "Autopeople",
+          company_url: "https://www.openzap.by/",
           logo_path: "Openzap.png",
           duration: "June 2022 - Present",
           location: "Minsk",
@@ -370,6 +388,12 @@ const experience = {
           title: "Mentor",
           company: "RS School",
           company_url: "https://rs.school",
+          logo_path: "logo_rs2.svg",
+          duration: "Nov 2020",
+          location: "Remote",
+          title: "Mentor",
+          company: "RS School",
+          company_url: "https://rs.school/",
           logo_path: "logo_rs2.svg",
           duration: "Nov 2020",
           location: "Remote",

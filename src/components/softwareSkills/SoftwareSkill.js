@@ -11,9 +11,9 @@ function SoftwareSkill(props) {
             return (
               <OverlayTrigger
                 key={logo.skillName}
-                placement={"top"}
+                placement="top"
                 overlay={
-                  <Tooltip id={`tooltip-top`}>
+                  <Tooltip id="tooltip-top">
                     <strong>{logo.skillName}</strong>
                   </Tooltip>
                 }
@@ -24,7 +24,7 @@ function SoftwareSkill(props) {
                     data-icon={logo.fontAwesomeClassname}
                     style={logo.style}
                     data-inline="false"
-                  ></span>
+                  />
                 </li>
               </OverlayTrigger>
             );

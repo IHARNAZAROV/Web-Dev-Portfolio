@@ -11,8 +11,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-brands fa-github"></i>
-        <span></span>
+        <i className="fa-brands fa-github" />
+        <span />
       </a>
 
       <a
@@ -21,8 +21,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-brands fa-linkedin-in"></i>
-        <span></span>
+        <i className="fa-brands fa-linkedin-in" />
+        <span />
       </a>
       <a
         href={`mailto:${socialMediaLinks.gmail}`}
@@ -30,8 +30,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-solid fa-envelope"></i>
-        <span></span>
+        <i className="fa-solid fa-envelope" />
+        <span />
       </a>
       <a
         href={socialMediaLinks.dev}
@@ -39,8 +39,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-brands fa-dev"></i>
-        <span></span>
+        <i className="fa-brands fa-dev" />
+        <span />
       </a>
       <a
         href={socialMediaLinks.codewars}
@@ -48,8 +48,8 @@ export default function socialMedia() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <i className="fa-solid fa-code-compare"></i>
-        <span></span>
+        <i className="fa-solid fa-code-compare" />
+        <span />
       </a>
     </div>
   );

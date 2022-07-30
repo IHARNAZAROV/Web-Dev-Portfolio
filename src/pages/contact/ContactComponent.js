@@ -30,7 +30,7 @@ function Contact(props) {
             <div className="contact-heading-img-div">
               <img
                 className="profile-pic"
-                src={require(`../../assests/images/${ContactData["profile_image_path"]}`)}
+                src={require(`../../assests/images/${ContactData.profile_image_path}`)}
                 alt=""
               />
             </div>
@@ -39,13 +39,13 @@ function Contact(props) {
                 className="contact-heading-text"
                 style={{ color: theme.text }}
               >
-                {ContactData["title"]}
+                {ContactData.title}
               </h1>
               <p
                 className="contact-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {ContactData["description"]}
+                {ContactData.description}
               </p>
               <SocialMedia />
               <br />
@@ -60,13 +60,13 @@ function Contact(props) {
           <div className="blog-heading-div">
             <div className="blog-heading-text-div">
               <h1 className="blog-heading-text" style={{ color: theme.text }}>
-                {blogSection["title"]}
+                {blogSection.title}
               </h1>
               <p
                 className="blog-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {blogSection["subtitle"]}
+                {blogSection.subtitle}
               </p>
               <div className="blogsite-btn-div">
                 <a {...styles} className="general-btn" href={blogSection.link}>

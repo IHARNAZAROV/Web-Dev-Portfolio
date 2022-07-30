@@ -9,7 +9,7 @@ import ExperienceImg from "./ExperienceImg";
 
 function Experience(props) {
   const theme = props.theme;
-  console.log(props.setTheme);
+
   return (
     <div className="experience-main">
       <Header theme={theme} setTheme={props.setTheme} />
@@ -30,19 +30,19 @@ function Experience(props) {
                 className="experience-heading-sub-text"
                 style={{ color: theme.text }}
               >
-                {experience["subtitle"]}
+                {experience.subtitle}
               </h3>
               <p
                 className="experience-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {experience["description"]}
+                {experience.description}
               </p>
             </div>
           </div>
         </Fade>
       </div>
-      <ExperienceAccordion sections={experience["sections"]} theme={theme} />
+      <ExperienceAccordion sections={experience.sections} theme={theme} />
       <Footer theme={props.theme} onToggle={props.onToggle} />
     </div>
   );

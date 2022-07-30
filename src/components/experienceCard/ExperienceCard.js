@@ -8,14 +8,14 @@ function ExperienceCard(props) {
     <div
       className="experience-card"
       style={{
-        border: `1px solid ${experience["color"]}`,
+        border: `1px solid ${experience.color}`,
         backgroundColor: theme.imageDark,
       }}
     >
       <div className="experience-card-logo-div">
         <img
           className="experience-card-logo"
-          src={require(`../../assests/images/${experience["logo_path"]}`)}
+          src={require(`../../assests/images/${experience.logo_path}`)}
           alt=""
         />
       </div>
@@ -23,18 +23,18 @@ function ExperienceCard(props) {
         <div className="experience-card-header-div">
           <div className="experience-card-heading-left">
             <h3 className="experience-card-title" style={{ color: theme.text }}>
-              {experience["title"]}
+              {experience.title}
             </h3>
             <p
               className="experience-card-company"
               style={{ color: theme.secondaryText }}
             >
               <a
-                href={experience["company_url"]}
+                href={experience.company_url}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {experience["company"]}
+                {experience.company}
               </a>
             </p>
           </div>
@@ -43,13 +43,13 @@ function ExperienceCard(props) {
               className="experience-card-duration"
               style={{ color: theme.secondaryText }}
             >
-              {experience["duration"]}
+              {experience.duration}
             </p>
             <p
               className="experience-card-location"
               style={{ color: theme.secondaryText }}
             >
-              {experience["location"]}
+              {experience.location}
             </p>
           </div>
         </div>
@@ -57,7 +57,7 @@ function ExperienceCard(props) {
           className="experience-card-description"
           style={{ color: theme.text }}
         >
-          {experience["description"]}
+          {experience.description}
         </p>
       </div>
     </div>

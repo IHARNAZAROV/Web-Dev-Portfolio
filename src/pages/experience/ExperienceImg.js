@@ -232,7 +232,6 @@ export default function ExperienceImg(props) {
         transform="translate(677.56291 1006.16171) rotate(-180)"
         fill={theme.imageDark}
       />
-      />
       <rect
         x="483.52534"
         y="596.633"

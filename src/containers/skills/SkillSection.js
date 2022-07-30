@@ -7,10 +7,11 @@ import FullStackImg from "./FullStackImg";
 import DesignImg from "./DesignImg";
 
 function GetSkillSvg(props) {
-  if (props.fileName === "FullStackImg")
+  if (props.fileName === "FullStackImg") {
     return <FullStackImg theme={props.theme} />;
-  else if (props.fileName === "DesignImg")
+  } else if (props.fileName === "DesignImg") {
     return <DesignImg theme={props.theme} />;
+  }
 }
 
 function SkillSection(props) {

@@ -38,7 +38,7 @@ function Projects(props) {
                 className="projects-header-detail-text subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                {projectsHeader["description"]}
+                {projectsHeader.description}
               </p>
             </div>
           </div>

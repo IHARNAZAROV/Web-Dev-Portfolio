@@ -67,15 +67,15 @@ function Header(props) {
       <div>
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
+            <span style={{ color: theme.text }} />
             <span className="logo-name" style={{ color: theme.text }}>
               {greeting.logo_name}
             </span>
-            <span style={{ color: theme.text }}></span>
+            <span style={{ color: theme.text }} />
           </NavLink>
           <input className="menu-btn" type="checkbox" id="menu-btn" />
           <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
+            <span className="navicon" />
           </label>
           <ul className="menu">
             <li>
