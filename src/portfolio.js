@@ -330,7 +330,7 @@ const experience = {
         {
           title: "Technical Support Specialist",
           company: "Internet Service Provider “Business Network”",
-          company_url: "https://bn.by/",
+          company_url: "https://bn.by",
           logo_path: "IProvider.jpg",
           duration: "April 2008 - August 2011",
           location: "Minsk",
@@ -342,7 +342,7 @@ const experience = {
         {
           title: "Systems Engineer",
           company: "Krismas",
-          company_url: "http://krismas-service.com/",
+          company_url: "http://krismas-service.com",
           logo_path: "cristmas.png",
           duration: "October 2012 - May 2022",
           location: "Minsk",
@@ -353,7 +353,7 @@ const experience = {
         {
           title: "System Administrator",
           company: "Autopeople",
-          company_url: "https://www.openzap.by/",
+          company_url: "https://www.openzap.by",
           logo_path: "Openzap.png",
           duration: "June 2022 - Present",
           location: "Minsk",
@@ -369,7 +369,7 @@ const experience = {
         {
           title: "Mentor",
           company: "RS School",
-          company_url: "https://rs.school/",
+          company_url: "https://rs.school",
           logo_path: "logo_rs2.svg",
           duration: "Nov 2020",
           location: "Remote",
@@ -623,6 +623,35 @@ const projects = {
         {
           name: "JavaScript",
           iconifyClass: "logos-javascript",
+        },
+      ],
+    },
+    {
+      id: "9",
+      name: "Wikipedia Search Application",
+      url: "https://wiki-search-igor-nazarov.netlify.app",
+      description:
+        "A front-end web app that takes a search input and gets a list of Wikipedia search results using the Media Wiki API.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Webpack",
+          iconifyClass: "logos:webpack",
         },
       ],
     },
