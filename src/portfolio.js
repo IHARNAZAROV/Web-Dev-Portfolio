@@ -655,6 +655,35 @@ const projects = {
         },
       ],
     },
+    {
+      id: "10",
+      name: "Kanban Board Application",
+      url: "https://kanban-igor-nazarov.netlify.app",
+      description:
+        "pplication has a feature, which allowes to add new tasks by using a form to add new tasks and it is consisted with three columns.",
+      languages: [
+        {
+          name: "HTML5",
+          iconifyClass: "vscode-icons:file-type-html",
+        },
+        {
+          name: "CSS3",
+          iconifyClass: "vscode-icons:file-type-css",
+        },
+        {
+          name: "JavaScript",
+          iconifyClass: "logos-javascript",
+        },
+        {
+          name: "React",
+          iconifyClass: "logos:react",
+        },
+        {
+          name: "Webpack",
+          iconifyClass: "logos:webpack",
+        },
+      ],
+    },
   ],
 };
 
