@@ -145,7 +145,7 @@ const skills = {
       ],
     },
     {
-      title: "User Experience/User Interface Design",
+      title: "User Experience/User Interface",
       fileName: "DesignImg",
       skills: [
         "⚡ Build interfaces in software or other computerized devices",
