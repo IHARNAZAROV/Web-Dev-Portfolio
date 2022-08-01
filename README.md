@@ -4,13 +4,11 @@
 
 This project is my personal website that showcases my portfolio
 
-
 # Hi, I'm Igor!
 
-
 ## 🚀 About Me
-I'm a web developer from Minsk
 
+I'm a web developer from Minsk
 
 ## Tech Stack
 
@@ -18,14 +16,12 @@ I'm a web developer from Minsk
 
 **illustrations:** UnDraw
 
-
 ## Features
 
 - Light/dark mode toggle
 - Live previews
 - Fullscreen mode
 - Cross platform
-
 
 ## Run Locally
 
@@ -53,9 +49,6 @@ Start the server
   npm run start
 ```
 
-
 ## Authors
 
 - [@Igor Nazarov](https://github.com/IHARNAZAROV)
-
-
