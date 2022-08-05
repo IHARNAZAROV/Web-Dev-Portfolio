@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "baseui": "9.116.3",
-    "bootstrap": "4.6.1",
+    "bootstrap": "5.2.0",
     "fs": "0.0.1-security",
     "glamor": "2.20.40",
     "node-fetch": "3.2.10",
