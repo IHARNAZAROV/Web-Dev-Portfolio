@@ -39,7 +39,7 @@
     "@iconify/react": "3.2.2",
     "gh-pages": "4.0.0",
     "husky": "8.0.1",
-    "lint-staged": "10.5.4",
+    "lint-staged": "13.0.3",
     "prettier": "2.7.1"
   },
   "browserslist": {
