@@ -20,7 +20,7 @@
     "node-sass": "7.0.3",
     "prettier-package-json": "2.7.0",
     "react": "18.2.0",
-    "react-bootstrap": "2.5.0",
+    "react-bootstrap": "2.6.0",
     "react-cursor-custom": "1.2.4",
     "react-dom": "18.2.0",
     "react-ga": "3.3.1",
