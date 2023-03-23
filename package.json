@@ -30,7 +30,7 @@
     "react-rounded-image": "2.0.15",
     "react-router-dom": "6.9.0",
     "react-scripts": "5.0.1",
-    "styled-components": "5.3.9",
+    "styled-components": "5.3.8",
     "styletron-engine-atomic": "1.5.0",
     "styletron-react": "6.1.0"
   },
