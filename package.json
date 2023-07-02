@@ -12,7 +12,7 @@
     "test": "react-scripts test"
   },
   "dependencies": {
-    "baseui": "12.2.0",
+    "baseui": "13.0.0",
     "bootstrap": "5.3.0",
     "fs": "0.0.1-security",
     "glamor": "2.20.40",
