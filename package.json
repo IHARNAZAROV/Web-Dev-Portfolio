@@ -37,7 +37,7 @@
   "devDependencies": {
     "@iconify/icons-logos": "1.2.33",
     "@iconify/react": "4.1.1",
-    "gh-pages": "5.0.0",
+    "gh-pages": "6.1.1",
     "husky": "8.0.3",
     "lint-staged": "13.3.0",
     "prettier": "2.8.8"
